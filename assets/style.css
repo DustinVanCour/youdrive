@@ -7,11 +7,12 @@ body {
 }
 
 .usamap {
-    position: fixed;
-    height: 60rem;
-    width: 60rem;
-    left: 0px;
-    padding: 30px;
+    margin: 0;
+    margin-left: 10rem;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .doorcontainer {
@@ -28,7 +29,7 @@ body {
     position: absolute;
     top: 0;
     margin-top: 58.19px;
-    animation: topdoor 3s; 
+    animation: topdoor 2s; 
 }
 
 .bottomdoor {
@@ -37,7 +38,7 @@ body {
     width: 100%;
     position: absolute;
     bottom: 0;
-    animation: bottomdoor 3s;    
+    animation: bottomdoor 2s;    
 }
 
 @keyframes topdoor {
