@@ -15,7 +15,7 @@ body {
 
 .topdoor {
     background-color:#3266bacc; 
-    height: 30%;
+    height: 20%;
     width: 100%;
     position: absolute;
     top: 0;
@@ -27,7 +27,7 @@ body {
 
 .bottomdoor {
     background-color: #3266bacc;
-    height: 30%;
+    height: 20%;
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -37,12 +37,12 @@ body {
 }
 
 @keyframes topdoor {
-    from{top:-30%;}
+    from{top:-20%;}
     to{top:0;}
 }
 
 @keyframes bottomdoor {
-    from{bottom:-30%;}
+    from{bottom:-20%;}
     to{bottom:0;}
 }
 
